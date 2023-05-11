@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow:7px 13px 37px #000;
+}
+.container h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form-control{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.form-group{
+ margin-top: 10px;
+}
+.container p{
+    height: 90px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+.container a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.container .btn{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.combo{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #24303c;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: grey;
+}
+
+.icon,.select-value{
+    padding: 10px 15px;
+}
+.icon {
+    border-left: .5px solid #ccc;
+}
