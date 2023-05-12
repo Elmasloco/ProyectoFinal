@@ -3,11 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3307
-<<<<<<< HEAD
--- Tiempo de generación: 12-05-2023 a las 01:25:15
-=======
--- Tiempo de generación: 11-05-2023 a las 23:53:09
->>>>>>> 9b698f3ef6088c2523d649ef04bbbe3668fcbfd1
+-- Tiempo de generación: 12-05-2023 a las 01:59:14
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -46,7 +42,6 @@ INSERT INTO `admins` (`id`, `nombre`, `apellido`, `cargo`) VALUES
 (11, 'Romoncio', 'PatiÃ±o', 'Organizador principal'),
 (12, 'Natalia', 'Paris', 'Presentador'),
 (13, 'Tatiana', 'Coy', 'Presentador');
-<<<<<<< HEAD
 
 -- --------------------------------------------------------
 
@@ -67,8 +62,6 @@ CREATE TABLE `eventos` (
 
 INSERT INTO `eventos` (`id`, `nombres`, `apellidos`, `evento`) VALUES
 (1, 'Don Marcos', 'Marcos', 'Actividad \"Sembrando miarbolito\"');
-=======
->>>>>>> 9b698f3ef6088c2523d649ef04bbbe3668fcbfd1
 
 -- --------------------------------------------------------
 
@@ -114,15 +107,11 @@ INSERT INTO `registros` (`id`, `nombre`, `apellido`, `edad`, `genero`, `document
 (29, 'Marcos', 'Alonso', 31, 'masculino', 1250041, 'C.C.', 'User'),
 (30, 'Mamma', 'Mia', 25, 'femenino', 10100048, 'T.I.', 'User'),
 (31, 'Sara', 'Coy', 21, 'femenino', 198481, 'C.C.', 'User'),
-<<<<<<< HEAD
 (33, 'Cristiano', 'Ronaldo', 38, 'masculino', 55534332, 'C.C.', 'User'),
 (34, 'Pedro', 'Carrascal', 16, 'masculino', 1234545, 'T.I.', 'User'),
 (35, 'Marina', 'Garcia', 19, 'femenino', 4432111, 'C.C.', 'User'),
 (36, 'Peggy', 'Ramirez', 25, 'femenino', 98166373, 'Otro', 'User'),
 (37, 'Don Marcos', 'Marcos', 55, 'masculino', 23555, 'Otro', 'User');
-=======
-(33, 'Cristiano', 'Ronaldo', 38, 'masculino', 55534332, 'C.C.', 'User');
->>>>>>> 9b698f3ef6088c2523d649ef04bbbe3668fcbfd1
 
 --
 -- Índices para tablas volcadas
@@ -166,11 +155,7 @@ ALTER TABLE `eventos`
 -- AUTO_INCREMENT de la tabla `registros`
 --
 ALTER TABLE `registros`
-<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
-=======
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
->>>>>>> 9b698f3ef6088c2523d649ef04bbbe3668fcbfd1
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
